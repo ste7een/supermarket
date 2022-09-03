@@ -2,7 +2,7 @@
   <!-- Application -->
   <div p="4">
     <span un-text="white">Hello</span>
-    <UiButton @click="app.toggleRunning()">Exit App</UiButton>
+    <UiButton @click="app.toggleRunning()" w="xl:400px 50px">Exit App</UiButton>
   </div>
 </template>
 
